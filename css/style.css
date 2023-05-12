@@ -689,10 +689,10 @@ use:hover {
 .top-of-the-card {
   margin-top: 310px;
 }
-.nav-section.portofolio:hover::after {
+.portofolio:hover::after {
   display: inline;
 }
-.nav-section.portofolio::after {
+.portofolio::after {
   position: absolute;
   display: none;
   content: "";
@@ -704,10 +704,10 @@ use:hover {
   left: 0;
   width: 100%;
 }
-.nav-section.studio:hover::after {
+.studio:hover::after {
   display: inline;
 }
-.nav-section.studio::after {
+.studio::after {
   position: absolute;
   display: none;
   content: "";
