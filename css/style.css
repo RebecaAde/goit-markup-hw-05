@@ -689,11 +689,10 @@ use:hover {
 .top-of-the-card {
   margin-top: 310px;
 }
-.nav-section:hover::after {
+.nav-section.portofolio:hover::after {
   display: inline;
 }
-
-.nav-section::after {
+.nav-section.portofolio::after {
   position: absolute;
   display: none;
   content: "";
@@ -705,6 +704,22 @@ use:hover {
   left: 0;
   width: 100%;
 }
+.nav-section.studio:hover::after {
+  display: inline;
+}
+.nav-section.studio::after {
+  position: absolute;
+  display: none;
+  content: "";
+  background: #2196f3;
+  border-radius: 2px;
+  width: 100%;
+  height: 3px;
+  bottom: -22px;
+  left: 0;
+  width: 100%;
+}
+
 .modal {
   position: fixed;
   z-index: 2;
